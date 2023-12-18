@@ -9,7 +9,16 @@ export const products = [
     category:"Phone",
     inStock:true,
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVkFle0SZjuNH2wORYyOyJdSrlESccIG0jQ&usqp=CAU",
-    reviews:[]
+    reviews:[
+      {
+        id:"1",
+        userId:"123",
+        productId:"12345",
+        comment:"bu cox keyfiyyetli mehsuldur",
+        rating:"4"
+
+      }
+    ]
   },
   {
     id:2,
