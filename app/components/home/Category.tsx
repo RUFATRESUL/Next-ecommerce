@@ -20,6 +20,8 @@ const Category = () => {
         }
        
     ]
+   
+    
   return (
     <div className="flex items-center justify-center px-2 md:px-8 py-6 md:py-10 overflow-x-auto gap-2 md:gap-10">
         {categoryList.map((category,index)=>(
