@@ -20,7 +20,7 @@ const ProductCards = ({product}:{product:any}) => {
         <div className="text-center mt-3 space-y-1">
             <div className="text-lg">{textClip(product.name)}</div>
             <Rating name="read-only" value={review} readOnly />
-            <div className="text-orange-600">{product.price}</div>
+            <div className="text-orange-600">{product.price} AZN</div>
             
         </div>
     </div>

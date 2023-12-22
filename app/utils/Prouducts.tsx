@@ -3,19 +3,34 @@ export const products = [
   {
     id:1,
     name:"Iphone14",
-    description:"mobile phone",
+    description:"Find out the detailed features, prices, pictures, opinions and versions of the Apple iPhone 14, a 6.1-inch smartphone with A15 Bionic chip, dual 12 MP cameras and iOS 16. Compare the models, network …",
     price:3200,
     brand:"apple",
     category:"Phone",
-    inStock:true,
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVkFle0SZjuNH2wORYyOyJdSrlESccIG0jQ&usqp=CAU",
+    inStock:false,
+    image:"https://gait.com.kw/media/catalog/product/c/o/conf-iphone14-pro__1.jpg?quality=100&fit=bounds&height=700&width=700",
     reviews:[
       {
         id:"1",
         userId:"123",
         productId:"12345",
         comment:"bu cox keyfiyyetli mehsuldur",
-        rating:"4"
+        createDate:"2023-07-23 06:08:23",
+        rating:"4",
+        user:{
+          id:1,
+          name:"Rufat",
+          email:"rufat@gmail.com",
+          image:"https://th.bing.com/th/id/OIP.1yoSL-WO0YU5mQKROudvswHaHa?w=201&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          emailVerfied:null,
+          hashedPassword:null,
+          created:"2023-05-30T0B 08:33",
+          updated:"2023-06-31T0B 10:23",
+          role:"Admin"
+
+
+
+        }
 
       }
     ]
